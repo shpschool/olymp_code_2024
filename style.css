@@ -43,7 +43,16 @@ h1:active {
     transition: 0.1s;
 }
 
-
+.input-field {
+    border: #002d74 solid 2px;
+    padding: 20px;
+    margin: 10px;
+    color: #002d74;
+    background-color: #fff;
+    width: 20vw;
+    text-align: center;
+    transition: 0.1s;
+}
 
 p {
     text-align: justify;
@@ -59,7 +68,7 @@ p {
 }
 
 .answer * {
-    margin: 3vh auto;
+    margin: 2vh auto;
 }
 
 .container {
