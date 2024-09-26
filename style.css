@@ -135,7 +135,7 @@ p {
   
     width: 50vw;
     height: 50vw;
-    animation: hint 500s;
+    animation: hint 300s;
     left:50%;
     margin-left: -25vw;
     
