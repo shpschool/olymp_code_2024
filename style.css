@@ -100,11 +100,21 @@ p {
 }
 
 .arrow {
-    background: linear-gradient(180deg, rgba(14,0,255,1) 0%,rgba(255,0,0,1) 100%);
+    /*background: linear-gradient(180deg, rgba(14,0,255,1) 0%,rgba(255,0,0,1) 100%);*/
     height: 70%;
     width: 10%;
     position: absolute;
     transition: 0.5s;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#arrowhour {
+    background-image: url("assets/arrow-01.png");
+}
+#arrowmin {
+    background-image: url("assets/arrow-02.png");
 }
 
 /*.clock:hover .arrow{
