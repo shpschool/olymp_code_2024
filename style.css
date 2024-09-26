@@ -33,6 +33,7 @@ h1:active {
     text-align: center;
     transition: 0.1s;
     font-size: 2rem;
+    box-sizing: border-box;
 }
 
 .button {
