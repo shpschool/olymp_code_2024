@@ -29,7 +29,7 @@ h1:active {
 .button, .input-field {
     padding: 20px;
     /*margin: 10px;*/
-    width: 20vw;
+    min-width: 35vw;
     text-align: center;
     transition: 0.1s;
     font-size: 2rem;
