@@ -79,3 +79,7 @@ p {
     flex-grow: 1; 
   }
 
+.task {
+    width: 80vw;
+    margin: auto;
+}
