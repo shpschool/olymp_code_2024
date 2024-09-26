@@ -103,11 +103,18 @@ p {
     background: linear-gradient(180deg, rgba(14,0,255,1) 0%,rgba(255,0,0,1) 100%);
     height: 70%;
     width: 10%;
-
+    position: absolute;
     transition: 0.5s;
 }
 
-.clock:hover .arrow{
+/*.clock:hover .arrow{
     transform: rotate(90deg);
+}*/
+
+.correhour {
+    transform: rotate(180deg);
 }
 
+.corremin {
+    transform: rotate(180deg);
+}
