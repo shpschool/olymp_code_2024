@@ -26,16 +26,20 @@ h1:active {
     animation: leftright 2s alternate infinite;
 }
 
-
-.button {
-    border: #fff solid 2px;
+.button, .input-field {
     padding: 20px;
     margin: 10px;
-    color: #fff;
-    background-color: #002d74;
     width: 20vw;
     text-align: center;
     transition: 0.1s;
+    font-size: 2rem;
+}
+
+.button {
+    border: #fff solid 2px;
+    color: #fff;
+    background-color: #002d74;
+    
 }
 
 .button:active {
@@ -45,13 +49,14 @@ h1:active {
 
 .input-field {
     border: #002d74 solid 2px;
-    padding: 20px;
-    margin: 10px;
     color: #002d74;
     background-color: #fff;
-    width: 20vw;
-    text-align: center;
-    transition: 0.1s;
+}
+
+.answer-contain {
+    display: flex;
+    align-items: stretch;
+
 }
 
 p {
@@ -97,7 +102,19 @@ p {
     margin: auto;
 }
 
+@keyframes hint {
+    0% {
+        
+        opacity: 0;
+    }
+    90% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
 
+    }
+}
 .clock {
     display:flex;
     align-items: center;
@@ -106,6 +123,22 @@ p {
     height: 50vw;
     border-radius: 10000%;
     background-color: #fff;
+    
+}
+.clock::before {
+    content: "";
+    background-image: url('assets/clock.svg');
+    background-repeat: no-repeat;
+  
+    position: absolute;
+    z-index: 1;
+  
+    width: 50vw;
+    height: 50vw;
+    animation: hint 500s;
+    left:50%;
+    margin-left: -25vw;
+    
 }
 
 .arrow {
@@ -118,6 +151,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 #arrowhour {
     background-image: url("assets/arrow-01.png");
@@ -135,5 +169,6 @@ p {
 }
 
 .corremin {
-    transform: rotate(180deg);
+    transform: rotate(180deg) scaleY(1.5);
+   
 }
