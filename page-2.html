@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="content">
-            <img src="assets/mshp-white.png" class="main-logo">
-            <h1>Header</h1>
-            <div class="clock">
-                <div class="arrow" id="arrowhour"></div>
-                <div class="arrow" id="arrowmin"></div>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quia sapiente enim commodi delectus possimus itaque esse reiciendis fugiat expedita cupiditate, doloribus voluptas tenetur aut eum harum. Illum, alias totam.</p>    
-            <p>ОТВЕТЫ: 111 и 222</p>
-            <form class="answer">
-                <div class="answer-contain">
-                    <input name ="one" id="ans1" class="input-field">
-                    <input type="button" id="btnanswer1" value = "PRESS ME" class="button">
-                </div>
-                <div class="answer-contain">
-                    <input name ="two" id="ans2" class="input-field">
-                    <input type="button" id="btnanswer2" value = "PRESS ME" class="button">
-                </div>
-            </form>
+      <div class="content">
+        <img src="assets/mshp-white.png" class="main-logo" />
+        <h1>Header</h1>
+        <div class="clock">
+          <div class="arrow" id="arrowhour"></div>
+          <div class="arrow" id="arrowmin"></div>
         </div>
-        <div class="stretch"></div>
-        <script src="script.js"></script>
+        <p>
+          Дима осторожно приоткрыл дверь и вошел в каюту. Судя по богатому и
+          аккуратному убранству это была каюта капитана. В первую очередь его
+          внимание привлек большой странный компас, который почему-то висел на
+          стене. Его очень странная стрелка как будто состояла из двух частей,
+          которые очень медленно вращались независимо друг от друга. Под
+          компасом на деревянной стене был приколот кусок пергамента. Дима
+          подошел ближе и разглядел текст, написанный аккуратным почерком.
+        </p>
+
+        <form class="answer">
+            <label>75 или 46</label>
+          <div class="answer-contain">
+            <input name="one" id="ans1" class="input-field" />
+            <input
+              type="button"
+              id="btnanswer1"
+              value="&gt;"
+              class="button"
+            />
+          </div>
+          <div class="answer-contain">
+            <input name="two" id="ans2" class="input-field" />
+            <input
+              type="button"
+              id="btnanswer2"
+              value="&gt;"
+              class="button"
+            />
+          </div>
+        </form>
+      </div>
+      <a class="button next" href="index.html#anchor">Вернуться на палубу</a>
+
+      <div class="stretch"></div>
+      <script src="script.js"></script>
     </div>
-</body>
+  </body>
 </html>
