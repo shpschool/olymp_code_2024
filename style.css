@@ -133,6 +133,13 @@ p {
     margin: auto;
 }
 
+.question {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    text-align: center;
+}   
+
 @keyframes hint {
     0% {
         
