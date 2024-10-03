@@ -43,6 +43,11 @@ h1:active {
     
 }
 
+.next {
+    width: 80vw;
+    margin: 2vh auto;
+}
+
 .button:active {
     transform: scale(0.99);
     transition: 0.1s;
@@ -66,6 +71,12 @@ p {
     width: 70vw;
     margin-top: 1vh;
     margin-bottom: 1vh;
+}
+
+.story {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-style: italic;
 }
 
 .container, .content, .answer {
