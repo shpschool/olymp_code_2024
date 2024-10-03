@@ -43,9 +43,23 @@ h1:active {
     
 }
 
+@keyframes action {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
 .next {
     width: 80vw;
     margin: 2vh auto;
+    text-decoration: none;
+    animation: action alternate-reverse infinite 2s;
+}
+.next:visited {
+    color: #fff;
 }
 
 .button:active {
