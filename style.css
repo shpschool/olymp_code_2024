@@ -193,9 +193,11 @@ p {
 
 #arrowhour {
     background-image: url("assets/arrow-01.png");
+    transform:rotate(30deg);
 }
 #arrowmin {
     background-image: url("assets/arrow-02.png");
+    transform:rotate(30deg);
 }
 
 /*.clock:hover .arrow{
@@ -203,10 +205,10 @@ p {
 }*/
 
 .correhour {
-    transform: rotate(180deg);
+    transform: rotate(180deg) !important;
 }
 
 .corremin {
-    transform: rotate(180deg) scaleY(1.25);
+    transform: rotate(180deg) scaleY(1.25) !important;
    
 }
